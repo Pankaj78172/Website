@@ -12,9 +12,14 @@
 <body>
 
   <header>
-    <a href="index.html"><div class="logo">Gadget Galaxy</div></a>
+    <a href="index.html">
+      <div class="logo">Gadget Galaxy</div>
+    </a>
     <nav>
-      <ul>
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="Pages/nav_links/categories.html">Categories</a></li>
         <li><a href="Pages/nav_links/about.html">About</a></li>
@@ -26,136 +31,132 @@
 
   <section class="hero" id="hero">
     <div class="video-background">
-      <video autoplay loop muted>
+      <video autoplay loop muted class="w-100">
         <source src="media/3129957-uhd_3840_2160_25fps.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="hero-content">
+    <div class="hero-content text-center">
       <h1>Gadget Galaxy</h1>
       <p>Discover the future of technology today.</p>
-      <a href="Pages/nav_links/categories.html" class="btn">Explore Now</a>
+      <a href="Pages/nav_links/categories.html" class="btn btn-primary">Explore Now</a>
     </div>
   </section>
-  
 
   <!-- Existing Features Section -->
-<section class="features" id="features">
+  <section class="features d-flex flex-wrap justify-content-center" id="features">
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/news.html">
+        <img src="media/img/Smartphone.jpg" alt="Gadget News" class="img-fluid">
+      </a>
+      <h2>Latest Gadget News</h2>
+      <p>Stay updated with the newest releases, trends, and innovations in the gadget world.</p>
+    </div>
 
-  <div class="feature">
-    <a href="Pages/news.html">
-      <img src="media/img/Smartphone.jpg" alt="Gadget News">
-    </a>
-    <h2>Latest Gadget News</h2>
-    <p>Stay updated with the newest releases, trends, and innovations in the gadget world.</p>
-  </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/top10.html">
+        <img src="media/img/Wearable.jpg" alt="Top 10 Gadgets" class="img-fluid">
+      </a>
+      <h2>Top 10 Lists</h2>
+      <p>Our expert-curated top 10 gadgets — phones, wearables, accessories & more.</p>
+    </div>
 
-  <div class="feature">
-    <a href="Pages/top10.html">
-      <img src="media/img/Wearable.jpg" alt="Top 10 Gadgets">
-    </a>
-    <h2>Top 10 Lists</h2>
-    <p>Our expert-curated top 10 gadgets — phones, wearables, accessories & more.</p>
-  </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/reviews.html">
+        <img src="media/img/Accessrioes.jpg" alt="Gadget Reviews" class="img-fluid">
+      </a>
+      <h2>Gadget Reviews</h2>
+      <p>Honest reviews and performance breakdowns of the latest tech products.</p>
+    </div>
+  </section>
 
-  <div class="feature">
-    <a href="Pages/reviews.html">
-      <img src="media/img/Accessrioes.jpg" alt="Gadget Reviews">
-    </a>
-    <h2>Gadget Reviews</h2>
-    <p>Honest reviews and performance breakdowns of the latest tech products.</p>
-  </div>
-</section>
+  <!-- Upcoming Gadgets Section -->
+  <section class="features d-flex flex-wrap justify-content-center" id="upcoming">
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/upcoming.html">
+        <img src="media/img/upcomingGadgets.jpg" alt="Upcoming Gadgets" class="img-fluid">
+      </a>
+      <h2>Upcoming Gadgets</h2>
+      <p>A sneak peek into the future — what's launching soon and why it matters.</p>
+    </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/leaks.html">
+        <img src="media/img/leaks_vs_rumors.jpg" alt="Leaks and Rumors" class="img-fluid">
+      </a>
+      <h2>Leaks & Rumors</h2>
+      <p>Unconfirmed but exciting: leaks from insiders and early previews.</p>
+    </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/events.html">
+        <img src="media/img/tech_event.jpg" alt="Tech Events" class="img-fluid">
+      </a>
+      <h2>Tech Events</h2>
+      <p>Coverage of major tech events, launches, and product reveals around the world.</p>
+    </div>
+  </section>
 
-<!-- Upcoming Gadgets Section -->
-<section class="features" id="upcoming">
-  <div class="feature">
-    <a href="Pages/upcoming.html">
-      <img src="media/img/upcomingGadgets.jpg" alt="Upcoming Gadgets">
-    </a>
-    <h2>Upcoming Gadgets</h2>
-    <p>A sneak peek into the future — what's launching soon and why it matters.</p>
-  </div>
-  <div class="feature">
-    <a href="Pages/leaks.html">
-      <img src="media/img/leaks_vs_rumors.jpg" alt="Leaks and Rumors">
-    </a>
-    <h2>Leaks & Rumors</h2>
-    <p>Unconfirmed but exciting: leaks from insiders and early previews.</p>
-  </div>
-  <div class="feature">
-    <a href="Pages/events.html">
-      <img src="media/img/tech_event.jpg" alt="Tech Events">
-    </a>
-    <h2>Tech Events</h2>
-    <p>Coverage of major tech events, launches, and product reveals around the world.</p>
-  </div>
-</section>
+  <!-- Buyer's Guide Section -->
+  <section class="features d-flex flex-wrap justify-content-center" id="guides">
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/phone-guide.html">
+        <img src="media/img/phone_Buying.jpg" alt="Phone Buying Guide" class="img-fluid">
+      </a>
+      <h2>Phone Buying Guide</h2>
+      <p>Confused by choices? Here’s how to pick the right smartphone for your needs.</p>
+    </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/accessory-guide.html">
+        <img src="media/img/accesroiesGuide.jpg" alt="Accessory Guide" class="img-fluid">
+      </a>
+      <h2>Accessory Guide</h2>
+      <p>Must-have accessories for productivity, travel, gaming, and more.</p>
+    </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/budget.html">
+        <img src="media/img/best_budget_gadget.jpg" alt="Budget Gadgets" class="img-fluid">
+      </a>
+      <h2>Best Budget Gadgets</h2>
+      <p>Affordable tech that doesn’t compromise — best picks under every budget.</p>
+    </div>
+  </section>
 
-<!-- Buyer's Guide Section -->
-<section class="features" id="guides">
-  <div class="feature">
-    <a href="Pages/phone-guide.html">
-      <img src="media/img/phone_Buying.jpg" alt="Phone Buying Guide">
-    </a>
-    <h2>Phone Buying Guide</h2>
-    <p>Confused by choices? Here’s how to pick the right smartphone for your needs.</p>
-  </div>
-  <div class="feature">
-    <a href="Pages/accessory-guide.html">
-      <img src="media/img/accesroiesGuide.jpg" alt="Accessory Guide">
-    </a>
-    <h2>Accessory Guide</h2>
-    <p>Must-have accessories for productivity, travel, gaming, and more.</p>
-  </div>
-  <div class="feature">
-    <a href="Pages/budget.html">
-      <img src="media/img/best_budget_gadget.jpg" alt="Budget Gadgets">
-    </a>
-    <h2>Best Budget Gadgets</h2>
-    <p>Affordable tech that doesn’t compromise — best picks under every budget.</p>
-  </div>
-</section>
+  <!-- Comparison Section -->
+  <section class="features d-flex flex-wrap justify-content-center" id="comparisons">
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/iphone-vs-samsung.html">
+        <img src="media/img/iphone_vs_samsung.jpg" alt="iPhone vs Samsung" class="img-fluid">
+      </a>
+      <h2>iPhone vs Samsung</h2>
+      <p>Head-to-head: Which flagship wins in 2025?</p>
+    </div>
+    <div class="feature p-4 col-md-4">
+      <a href="Pages/smartwatch-vs-band.html">
+        <img src="media/img/smartWatch_vs_fitnessBand.jpg" alt="Smartwatch vs Band" class="img-fluid">
+      </a>
+      <h2>Smartwatch vs Fitness Band</h2>
+      <p>What’s right for your lifestyle: Smartwatch or Band?</p>
+    </div>
+    <div class="feature p-4 col-md-4">
+      <a href="media/img/battery_vs_speed.jpg">
+        <img src="media/img/battery_vs_speed.jpg" alt="Battery vs Speed" class="img-fluid">
+      </a>
+      <h2>Battery Life vs Speed</h2>
+      <p>Which matters more in your daily use? We break it down.</p>
+    </div>
+  </section>
 
-<!-- Comparison Section -->
-<section class="features" id="comparisons">
-  <div class="feature">
-    <a href="Pages/iphone-vs-samsung.html">
-      <img src="media/img/iphone_vs_samsung.jpg" alt="iPhone vs Samsung">
-    </a>
-    <h2>iPhone vs Samsung</h2>
-    <p>Head-to-head: Which flagship wins in 2025?</p>
-  </div>
-  <div class="feature">
-    <a href="Pages/smartwatch-vs-band.html">
-      <img src="media/img/smartWatch_vs_fitnessBand.jpg" alt="Smartwatch vs Band">
-    </a>
-    <h2>Smartwatch vs Fitness Band</h2>
-    <p>What’s right for your lifestyle: Smartwatch or Band?</p>
-  </div>
-  <div class="feature">
-    <a href="media/img/battery_vs_speed.jpg">
-      <img src="media/img/battery_vs_speed.jpg" alt="Battery vs Speed">
-    </a>
-    <h2>Battery Life vs Speed</h2>
-    <p>Which matters more in your daily use? We break it down.</p>
-  </div>
-</section>
-
-
-  <footer id="footer">
+  <footer id="footer" class="text-center py-4">
     <div class="footer-content">
       <h2>Gadget Galaxy</h2>
       <p>Innovating your future, one gadget at a time.</p>
       <div class="socials">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-x-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-instagram"></i></a>
       </div>
       <p style="margin-top: 1rem;">© 2025 Gadget Galaxy. All rights reserved.</p>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </html>

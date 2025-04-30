@@ -30,3 +30,10 @@ window.addEventListener('scroll', () => {
     }
 });
 
+  const toggler = document.querySelector('.navbar-toggler');
+  const navList = document.querySelector('.nav-list');
+
+  toggler.addEventListener('click', () => {
+    navList.classList.toggle('open');
+  });
+

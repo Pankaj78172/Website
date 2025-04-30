@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -14,46 +17,83 @@ body {
 }
 
 /* Header styles */
+/* Header */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #222;
-  color: white;
-  padding: 15px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
 }
 
-/* Logo */
-.logo {
-  font-size: 28px;
+header .logo {
+  font-size: 2rem;
   font-weight: bold;
+  color: #fff;
 }
-a{
-  text-decoration: none;
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-/* Nav menu */
+
 nav ul {
   list-style: none;
-  display: flex;
-  gap: 25px;
-  margin: 0;
   padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-nav a {
+nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: white;
-  font-size: 18px;
-  transition: color 0.3s;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-nav a:hover {
-  color: #ffcc00;
+nav ul li a:hover {
+  color: #0af;
 }
+
+/* Navbar toggle button for mobile view */
+.navbar-toggler {
+  display: none;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Make nav menu responsive */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    padding: 20px;
+  }
+
+  .nav-list.open {
+    display: flex;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
+
 
 
 .hero {
