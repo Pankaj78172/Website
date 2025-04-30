@@ -32,7 +32,9 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
+a{
+  text-decoration: none;
+}
 /* Nav menu */
 nav ul {
   list-style: none;
@@ -144,10 +146,11 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.feature h2 {
+.feature h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 
 .feature p {
   font-size: 16px;
@@ -404,6 +407,7 @@ footer p {
 .category-card h3 {
   margin-top: 15px;
   font-size: 1.25rem;
+  color: #000;
 }
 
 .category-card p {
