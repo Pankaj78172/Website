@@ -692,3 +692,61 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Detailed Guide Section */
+#detailed-guide {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  color: #333;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+#detailed-guide .feature {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#detailed-guide h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0a0a0a;
+  text-align: center;
+}
+
+#detailed-guide h3 {
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #0af;
+}
+
+#detailed-guide p {
+  margin-bottom: 16px;
+  color: #555;
+}
+
+#detailed-guide strong {
+  color: #111;
+}
+
+#detailed-guide p strong {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#detailed-guide ul {
+  list-style: disc inside;
+  margin-bottom: 20px;
+}
+
+#detailed-guide .feature p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Optional: Add slight section shadow or border if needed */
+#detailed-guide {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
