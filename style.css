@@ -794,3 +794,102 @@ footer {
   border-radius: 8px;
 }
 
+/* latest gadget */
+
+/* Styling for the Latest Gadget News section */
+#latest-gadget-news {
+  background-color: #f2f2f7;
+  padding: 60px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#latest-gadget-news .section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#latest-gadget-news .news-item {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  max-width: 900px; /* Limit the width of the news item */
+  margin-left: auto; /* Centers the item horizontally */
+  margin-right: auto; /* Centers the item horizontally */
+}
+
+#latest-gadget-news .news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
+}
+
+#latest-gadget-news .news-image {
+  max-width: 40%; /* Ensures the image is not too wide */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block; /* Ensures the image behaves like a block element */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+}
+
+/* Title and description styling */
+#latest-gadget-news .news-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#latest-gadget-news .news-description {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+#latest-gadget-news .news-link {
+  color: #0071e3;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#latest-gadget-news .news-link:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #latest-gadget-news .section-title {
+      font-size: 2.5rem;
+  }
+
+  #latest-gadget-news .news-item {
+      padding: 20px;
+  }
+
+  #latest-gadget-news .news-title {
+      font-size: 1.8rem;
+  }
+
+  #latest-gadget-news .news-description {
+      font-size: 1rem;
+  }
+
+  /* Adjust image size for smaller screens */
+  #latest-gadget-news .news-image {
+      max-width: 40%; /* Ensures the image scales to fit the screen width */
+  }
+}
