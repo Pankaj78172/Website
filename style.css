@@ -381,3 +381,315 @@ footer p {
     border-radius: 8px;
   }
   
+  .category-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .category-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .category-card h3 {
+    margin-top: 15px;
+    font-size: 1.25rem;
+  }
+  
+  .category-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* for smartphone*/
+
+ /* Global Styles */
+/* Global Styles */
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Horizontal Layout for Smartphone Features */
+  .smartphone-category {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .smartphone-category .feature {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%; /* Adjust width to fit 3 items per row */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content in each card */
+  }
+  
+  .smartphone-category .feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .smartphone-category .feature h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+  }
+  
+  .smartphone-category .feature p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .smartphone-category .feature .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Ad or Affiliate Promotion Section */
+  #adblock {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #adblock .feature {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #adblock .feature h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+  }
+  
+  #adblock .feature p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  #adblock .feature .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Smartphone Buying Tips Section */
+  #tips {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #tips .feature {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #tips h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #tips p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Section */
+  #footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #footer p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  /* about page*/
+
+  /* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Mission Section */
+  .mission {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .mission h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mission p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
