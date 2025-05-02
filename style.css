@@ -1685,3 +1685,441 @@ h2 {
       padding: 15px;
   }
 }
+
+/* tech event*/
+
+/* Tech Events Section */
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+
+.site-header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.page-hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 5px solid #4a90e2;
+}
+
+.page-hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.page-hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Tech Events Section */
+.tech-events {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f0f4f8, #ffffff);
+  color: #333;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.tech-events h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.tech-events .section-description {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 850px;
+  margin: 0 auto 50px auto;
+}
+
+.event-article {
+  margin-bottom: 40px;
+  padding: 25px 30px;
+  background: #ffffff;
+  border-left: 5px solid #4a90e2;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-article:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.event-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.event-icon {
+  font-size: 1.8rem;
+}
+
+.event-article h3 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #222;
+}
+
+.event-article p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.event-article strong {
+  color: #222;
+  font-weight: 600;
+}
+
+.tech-events .coming-soon {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tech-events .coming-soon h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.tech-events .coming-soon p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Phone Byuing Guide*/
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f4f4f7;  /* Light gray background */
+  color: #333;
+  line-height: 1.6;
+  font-size: 1rem;
+  padding-top: 60px;
+  transition: background-color 0.3s ease;
+}
+
+/* Header Styles */
+.new-site-header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.new-site-header .logo h1 {
+  font-size: 2.5rem;
+  margin-left: 20px;
+  font-family: 'Helvetica', sans-serif;
+  letter-spacing: 1px;
+}
+
+.new-nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.new-nav-links ul li {
+  margin-right: 25px;
+}
+
+.new-nav-links ul li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.new-nav-links ul li a:hover {
+  color: #007AFF; /* Apple blue color */
+  transform: translateY(-2px);
+}
+
+/* Phone Buying Guide Section */
+.phone-buying-guide {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 100px auto;
+  background: linear-gradient(145deg, #0b3d20, #1e5631); /* Dark green gradient */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  border-top: 5px solid #28a745; /* Fresh green accent */
+  border-bottom: 5px solid #28a745;
+  transition: box-shadow 0.3s ease;
+  color: white;
+}
+
+.phone-buying-guide:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.guide-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.phone-buying-guide h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.guide-description {
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.7;
+}
+
+
+
+/* Guide Steps */
+.guide-step {
+  background: rgba(255, 255, 255, 0.95); /* Light overlay inside dark background */
+  color: #222;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.guide-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.guide-step::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 5px;
+  height: 60px;
+  background: #007AFF; /* Apple blue accent */
+}
+
+.guide-step h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 500;
+}
+
+.guide-step p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Add Iconic Images in the Guide Step */
+.guide-step img {
+  max-width: 100px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.guide-step img:hover {
+  transform: scale(1.1);
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.brand {
+  width: 30%;
+  background: #f0f0f5;  /* Light gray background */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.brand:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.brand h4 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.brand ul {
+  list-style: none;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.brand ul li {
+  margin-bottom: 8px;
+}
+
+.brand ul li strong {
+  color: #007AFF; /* Apple blue accent */
+}
+
+/* Conclusion Section */
+.conclusion {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  color: #555;
+  background-color: #f4f4f7;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.conclusion::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #007AFF; /* Apple blue accent */
+}
+
+.conclusion p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+
+.conclusion button {
+  background-color: #007AFF;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.conclusion button:hover {
+  background-color: #005BB5;
+  transform: translateY(-2px);
+}
+
+/* Footer Styles */
+.new-site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: 40px;
+}
