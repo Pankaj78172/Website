@@ -1386,7 +1386,14 @@ body {
   color: #fff;
   padding: 20px 0;
 }
+.site-header a {
+  color: #fff;               /* white color */
+  text-decoration: none;     /* removes underline */
+}
 
+.site-header a:hover {
+  color: #ccc;               /* optional: light gray on hover */
+}
 .site-header .container {
   display: flex;
   justify-content: space-between;
@@ -1417,4 +1424,264 @@ body {
   text-align: center;
   padding: 15px 0;
   margin-top: 40px;
+}
+
+/* upcoming gadgets*/
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+.content-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Upcoming Gadgets List */
+.upcoming-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.gadget-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gadget-box h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.gadget-box p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+.gadget-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.gadget-box strong {
+  color: #333;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 40px;
+}
+
+.coming-soon h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.coming-soon p {
+  font-size: 1.1rem;
+  color: #777;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* Image Banner Section */
+.image-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url('../media/img/upcoming_gadgets.jpg'); /* Add your image file path */
+  background-size: cover;
+  background-position: center;
+}
+
+.image-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay to improve text readability */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.image-overlay h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.image-overlay p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Gadget Item Styling */
+.gadget-item {
+  background-color: #fff; /* Uniform background color */
+  border-radius: 8px; /* Consistent rounded corners */
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+  transition: all 0.3s ease;
+}
+
+.gadget-item h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333; /* Dark text for titles */
+}
+
+.gadget-item p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555; /* Subtle gray color for text */
+}
+
+.gadget-item strong {
+  color: #333; /* Consistent strong text color */
+}
+
+/* Hover effect for the cards */
+.gadget-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for gadget box */
+.gadget-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Adding consistent hover effects for both gadget item and gadget box */
+.gadget-item, .gadget-box {
+  transition: all 0.3s ease;
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-footer .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .image-overlay h1 {
+      font-size: 2em;
+  }
+
+  .image-overlay p {
+      font-size: 1em;
+  }
+
+  .gadget-item {
+      padding: 15px;
+  }
 }
