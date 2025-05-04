@@ -2323,15 +2323,14 @@ body {
 }
 
 /* smartphone vs fitness band*/
-
-/* Reset */
+/* === Global Reset === */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+/* === Body === */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f7;
@@ -2339,7 +2338,7 @@ body {
   padding-top: 70px; /* Matches header height */
 }
 
-/* Fixed Header */
+/* === Fixed Header (Home Page) === */
 header {
   position: fixed;
   top: 0;
@@ -2355,7 +2354,7 @@ header {
   z-index: 1000;
 }
 
-/* Navigation */
+/* === Navigation === */
 nav ul {
   list-style: none;
   display: flex;
@@ -2368,7 +2367,7 @@ nav ul li a {
   font-size: 1rem;
 }
 
-/* Main content */
+/* === Main Content (Home Page) === */
 main {
   padding: 20px;
   max-width: 1200px;
@@ -2378,7 +2377,7 @@ main {
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-/* Footer */
+/* === Footer (Home Page) === */
 footer {
   background-color: #333;
   color: #fff;
@@ -2387,24 +2386,18 @@ footer {
   margin-top: 40px;
 }
 
-.comparison-page, .comparison-page * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-/* Body */
+/* ================================================================== */
+/* === Comparison Page Styling === */
 .comparison-page {
   font-family: 'Helvetica Neue', sans-serif;
   background: #f4f4f7;
   color: #333;
   line-height: 1.6;
   font-size: 1rem;
-  padding-top: 70px; /* Matches header height */
+  scroll-behavior: smooth;
 }
 
-/* Header */
+/* === Comparison Page Header === */
 .comparison-page .new-site-header {
   background-color: #333;
   color: white;
@@ -2449,7 +2442,7 @@ footer {
   transform: translateY(-2px);
 }
 
-/* Main Content */
+/* === Comparison Section === */
 .comparison-page .comparison-section {
   max-width: 1200px;
   margin: 60px auto;
@@ -2461,7 +2454,6 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
 
 .comparison-page .comparison-section h2 {
   font-size: 2.5rem;
@@ -2485,13 +2477,13 @@ footer {
   margin: 0 auto 40px auto;
 }
 
+/* === Comparison Grid === */
 .comparison-page .comparison-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
-
 
 .comparison-page .comparison-card {
   background: #f9f9fc;
@@ -2528,6 +2520,7 @@ footer {
   color: #222;
 }
 
+/* === Comparison Details and Conclusion === */
 .comparison-page .comparison-details {
   margin-top: 40px;
   font-size: 1.05rem;
@@ -2551,7 +2544,7 @@ footer {
   font-weight: bold;
 }
 
-/* Footer */
+/* === Footer (Comparison Page) === */
 .comparison-page .new-site-footer {
   background-color: #333;
   color: white;
@@ -2560,6 +2553,3 @@ footer {
   font-size: 1rem;
   margin-top: 40px;
 }
-
-
-
