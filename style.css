@@ -2553,3 +2553,66 @@ footer {
   font-size: 1rem;
   margin-top: 40px;
 }
+
+/* Contact Page*/
+
+/* === Contact Page Styling === */
+.contact-page {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f4f4f7;
+  color: #333;
+  padding-top: 90px;
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #007aff;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-box {
+  padding: 20px;
+  background: #f1f5ff;
+  border-left: 6px solid #007aff;
+  border-radius: 10px;
+}
+
+.contact-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-email {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #007aff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+}
