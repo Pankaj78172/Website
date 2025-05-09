@@ -2616,3 +2616,38 @@ footer {
 .contact-email:hover {
   text-decoration: underline;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+.explore-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007aff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #005ecb;
+}
+
+
+footer p a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+footer p a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 1rem;
+}
