@@ -2651,3 +2651,9 @@ footer p a:hover {
 footer p {
   margin-top: 1rem;
 }
+
+.amazon-affiliate-bar {
+  width: 100%;
+  position: relative;
+  z-index: 2000; /* higher than your site nav */
+}
