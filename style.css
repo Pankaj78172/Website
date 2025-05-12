@@ -983,6 +983,9 @@ main {
 .top10-category {
   margin-bottom: 30px;
 }
+.top10-category a{
+  text-decoration: none;
+}
 
 button.toggle-btn {
   background-color: #f5f5f5;
