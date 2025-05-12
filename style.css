@@ -71,6 +71,8 @@ nav ul li a:hover {
   right: 20px;
 }
 
+
+
 /* Make nav menu responsive */
 @media (max-width: 768px) {
   .nav-list {
